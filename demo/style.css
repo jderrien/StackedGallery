@@ -1,0 +1,17 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+ul#photos {
+  position: relative;
+  width: 346px;
+  height: 344px;
+  margin: 50px 50px auto;
+  padding: 0;
+  list-style-type: none;
+}
+
+ul#photos li {
+  position: absolute;
+}
