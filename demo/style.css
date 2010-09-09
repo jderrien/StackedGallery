@@ -18,6 +18,7 @@ ul#photos li {
   width: 286px;
   height: 286px;
   border: 7px solid #fff9f9;
+  box-shadow: 0 0 5px #aaa;
   -moz-box-shadow: 0 0 5px #aaa;
   -webkit-box-shadow: 0 0 5px #aaa;
 }
@@ -25,15 +26,18 @@ ul#photos li {
 #photo-01 {
   top: -3px;
   left: 8px;
+  -o-transform: rotate(5.0deg);
   -moz-transform: rotate(5.0deg);
   -webkit-transform: rotate(5.0deg);
 }
 #photo-02 {
+  -o-transform: rotate(-1.2deg);
   -moz-transform: rotate(-1.2deg);
   -webkit-transform: rotate(-1.2deg);
 }
 #photo-03 {
   left: 4px;
+  -o-transform: rotate(2.2deg);
   -moz-transform: rotate(2.2deg);
   -webkit-transform: rotate(2.2deg);
 }
