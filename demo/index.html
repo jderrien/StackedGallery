@@ -4,12 +4,13 @@
     <title>StackedGallery demo</title>
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+    <!--[if lte IE 8]><link rel="stylesheet" type="text/css" href="style-ie.css" media="screen" /><![endif]-->
   </head>
   <body>
     <ul id="photos">
-      <li><img src="images/photo-01.png" /></li>
-      <li><img src="images/photo-02.png" /></li>
-      <li><img src="images/photo-03.png" /></li>
+      <li id="photo-01"><img src="images/photo-01.png" /></li>
+      <li id="photo-02"><img src="images/photo-02.png" /></li>
+      <li id="photo-03"><img src="images/photo-03.png" /></li>
     </ul>
     <script type="text/javascript" src="http://code.jquery.com/jquery-1.4.2.min.js"></script>
     <script type="text/javascript" src="../stacked-gallery.js"></script>
