@@ -1,0 +1,10 @@
+ul#photos {
+  width: 322px;
+  height: 322px;
+  background: url('images/bg-ie.png') 0 0 no-repeat;
+}
+
+ul#photos li {
+  top: 11px;
+  left: 11px;
+}
